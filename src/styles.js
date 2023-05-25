@@ -11,10 +11,10 @@ const styles = {
     sectionHeadText:
       "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
     sectionSubText:
-      "sm:text-[18px] text-[14px] text-[#A87B8F] uppercase tracking-wider",
+      "sm:text-[18px] text-[14px] text-[#b2dcfa] uppercase tracking-wider",
 
     timeline:
-    "mt-0 text-[#A87B8F]"
+    "mt-0 text-[#b2dcfa]"
   };
   
   export { styles };

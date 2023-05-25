@@ -23,10 +23,10 @@ const ServiceCard = (props) => {
           scale: 1,
           speed: 450,
         }}
-        className='bg-[#c8a1b2] rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-[#F0F8FB] rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
       <img src={props.icon} alt={props.name} className='w-16 h-16 object-contain' />
-      <h3 className='text-white text-[20px] font-bold text-center'>
+      <h3 className='text-black text-[20px] font-bold text-center'>
         {props.name}
       </h3>
       </div>
@@ -37,7 +37,7 @@ const ServiceCard = (props) => {
 
 const Tech = () => {
   return (
-    <div className='bg-[#c59fb8] p-[64px]'>
+    <div className='bg-[#0000] p-[64px]'>
       <motion.div variants={textVariant()} className='mt-12'>
           <p className={styles.sectionSubText}>Languages, Frameworks And Tools</p>
           <h2 className={styles.sectionHeadText}>Skills</h2>

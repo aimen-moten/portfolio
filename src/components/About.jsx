@@ -42,7 +42,7 @@ const About = () => {
             <h2 className={styles.sectionHeadText}>Overview</h2>
           </motion.div>
 
-          <motion.p variants={fadeIn("", "", 0.1, 1)} className='text-left text-[17px] mt-4 text-[#D199B2] max-w-3xl leading-[30px]'>
+          <motion.p variants={fadeIn("", "", 0.1, 1)} className='text-left text-[17px] mt-4 text-[white] max-w-3xl leading-[30px]'>
           My name is Aimen Moten (pronounced ey-mahn) and I am a freshman at DePauw University in Greencastle, Indiana.
           <br/>
           <br/>
