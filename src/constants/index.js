@@ -15,14 +15,24 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    ZYANA, 
+    zyana1,
+    ipserlab,
+    dpu,
+    wics,
+    cosoc,
+    python,
+    java, 
+    c, 
+    R,
+    wellnesswings,
+    diversityhub,
+    secrets,
+    musehaven,
   } from "../assets";
   
   export const navLinks = [
@@ -40,24 +50,24 @@ import {
     },
   ];
   
-  const services = [
-    {
-      title: "Front-end Development",
-      icon: web,
-    },
-    {
-      title: "Back-end Development",
-      icon: backend,
-    },
-    {
-      title: "Software Development",
-      icon: mobile,
-    },
-    {
-      title: "UI/UX Design",
-      icon: creator,
-    },
-  ];
+  // const services = [
+  //   {
+  //     title: "Front-end Development",
+  //     icon: web,
+  //   },
+  //   {
+  //     title: "Back-end Development",
+  //     icon: backend,
+  //   },
+  //   {
+  //     title: "Software Development",
+  //     icon: mobile,
+  //   },
+  //   {
+  //     title: "UI/UX Design",
+  //     icon: creator,
+  //   },
+  // ];
   
   const technologies = [
     {
@@ -72,18 +82,12 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+  
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -96,10 +100,7 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+   
     {
       name: "git",
       icon: git,
@@ -109,57 +110,74 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Java",
+      icon: java,
     },
+    {
+      name: "R",
+      icon: R,
+    },
+    {
+      name: "C++",
+      icon: c,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+
   ];
   
   const experiences = [
     {
       title: "Software Engineering Intern",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      company_name: "IpserLab",
+      icon: ipserlab,
+      iconBg: "#b2dcfa",
+      date: "June 2023 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Incoming Software Engineering Intern"
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Web and Technology Intern",
+      company_name: "Information Technology Associates Program at DePauw University",
+      icon: dpu,
+      iconBg: "#b2dcfa",
+      date: "August 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created multimedia exhibits, and configured and operated a Windows touchscreen kiosk to showcase those exhibits, student projects, visualization tables, and interactive games.",
+        "Collaborated with 3 interns to visualize the provided dataset using Tableau.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Chair",
+      company_name: "Women in Computer Science at DePauw University",
+      icon: wics,
+      iconBg: "#b2dcfa",
+      date: "August 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Organized and moderated 12 events that promote the role of women in technical fields, including Tech workshops, Girl Hackathons and Information Sessions for Professional Development, resulting in a 50% increase in women participation in technical fields.",
+        "Led team meetings and workshops to prepare 50+ members for Association for Computing Machinery’s Council on Women (ACM-W) conferences, resulting in an increase in networking opportunities, leadership skills, and a 35% increase in participation in ACM-W events."
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Junior Chair",
+      company_name: "Computing Opportunities for Students of Color",
+      icon: cosoc,
+      iconBg: "#b2dcfa",
+      date: "August 2022 - Present",
+      points: [
+        "Conducted workshops on technical concepts such as Git, JUnit, and Python Data Structures to help over 100 international students build their portfolios, resulting in a 50% increase in the number of students securing internships.",
+        "Helped over 100 students network with companies and organized a conference inviting software engineers from various companies."
+      ],
+    },
+    {
+      title: "Chief Executive Officer",
+      company_name: "Zyana",
+      icon: zyana1,
+      iconBg: "#b2dcfa",
+      date: "March 2022 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -262,4 +280,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { technologies, experiences, testimonials, projects };

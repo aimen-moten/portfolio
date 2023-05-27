@@ -10,8 +10,8 @@ import { fadeIn } from '../utils/motion'
 
 const Feedbacks = () => {
   return (
-    <div className={`flow-root mt-20 px-20 py-12 bg-tertiary`}>
-      <div className='text-left max-w-2xl float-left'>
+    <div className={`flow-root mt-20 px-20 py-12 bg-[#191919]`}>
+      <div className='text-left max-w-2xl float-left '>
         <motion.div variants={textVariant()} className='text-left'>
             <p className={styles.sectionSubText}>My Passion</p>
             <h2 className={styles.sectionHeadText}>Startup</h2>

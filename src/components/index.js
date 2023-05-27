@@ -9,6 +9,7 @@ import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Contact2 from "./Contact2";
 import CanvasLoader from './Loader';
+import Skills from './Skills';
 
 export {
   Hero,
@@ -25,4 +26,5 @@ export {
   StarsCanvas,
   CanvasLoader,
   Contact2,
+  Skills
 }

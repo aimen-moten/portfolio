@@ -49,10 +49,12 @@
 }
 
 .blue-red-gradient {
-  background: "#FA7777";
-  background: linear-gradient(90.13deg, #ffbd59 1.9%, #F63B3B 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #ffbd59 1.9%, #F63B3B 97.5%);
+  background: "#b2dcfa";
+  background: linear-gradient(90.13deg, #bea512 1.9%, #9e0360 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #58e8dc 1.9%, #11998e 97.5%);
 }
+
+
 
 .orange-text-gradient {
   background: #f12711; /* fallback for old browsers */

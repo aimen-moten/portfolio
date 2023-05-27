@@ -14,7 +14,7 @@ const ServiceCard = (props) => {
     <Tilt className="xs:w-[250px] w-full">
       <motion.div 
       variants={fadeIn("right", "spring", 1, 0.75)}
-      className='w-full blue-red-gradient p-[1px] rounded-[20px] shadow-card'>
+      className='w-full p-[1px] blue-red-gradient rounded-[20px] shadow-card'>
       
 
       <div
@@ -23,7 +23,7 @@ const ServiceCard = (props) => {
           scale: 1,
           speed: 450,
         }}
-        className='bg-[#F0F8FB] rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-[#C9E6FB] rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
       <img src={props.icon} alt={props.name} className='w-16 h-16 object-contain' />
       <h3 className='text-black text-[20px] font-bold text-center'>

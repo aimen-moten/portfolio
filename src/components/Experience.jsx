@@ -12,14 +12,14 @@ const ExperienceCard = ({experience}) => {
   return (
     <VerticalTimelineElement  
     contentArrowStyle={{borderRight: '7px solid #232631'}} 
-    contentStyle={{background: '#F0F8FB', color: 'black'}}
+    contentStyle={{background: '#C9E6FB', color: 'black'}}
     iconStyle={{background: experience.iconBg}}
     icon={
       <div className='flex items-center justify-center w-full h-full'>
         <img 
           src={experience.icon}
           alt={experience.company_name}
-          className='w-[60%] h-[60%] object-contain'
+          className='w-[90%] h-[90%] object-contain rounded-full'
         />
       </div>
     }
@@ -34,7 +34,7 @@ const ExperienceCard = ({experience}) => {
           {experience.company_name}
         </p>
       </div>
-      <ul className='list-disc ml-5 mt-5 space-y-2'>
+      <ul className='list-disc ml-5 mt-5 space-y-2 text-left'>
             {experience.points.map((point, index) => (
               <li key={experience-point-`${index}`} className='text-black-100 pl-1 tracking-wider text-[14px]'> 
                 {point}
@@ -50,10 +50,10 @@ const ExperienceCard = ({experience}) => {
 
 const Experience = () => {
   return (
-    <div className='p-[64px]'>
+    <div className='p-[64px] bg-[#0000]'>
       <motion.div variants={textVariant()} className='mt-20'>
           <p className={styles.sectionSubText}>Current and Previous Positions</p>
-          <h2 className={styles.sectionHeadText}>Work Experience</h2>
+          <h2 className={styles.sectionHeadText}>Experience</h2>
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
