@@ -17,15 +17,15 @@ export function ProjectCard({index, name, description, tags, image, source_code_
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>
+          <h3 className='text-black font-bold text-[24px]'>
             {name}
           </h3>
-          <p className='text-secondary mt-2 text-[14px]'>
+          <p className='text-black mt-2 text-[14px]'>
             {description}
           </p>
         </div>
         <div className='flex flex-wrap justify-center '>
-        <div className='mt-5 flex flex-wrap gap-2 justify-start text-[16px]'>
+        <div className='mt-5 flex flex-wrap gap-2 justify-start text-[16px] text-[#191919]'>
         Skills:
           {tags.map((tag) => (
             <p key={tag.name}>

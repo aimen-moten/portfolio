@@ -48,6 +48,10 @@ import {
       id: "contact",
       title: "Contact",
     },
+    {
+      id: "tech",
+      title: "Skills",
+    },
   ];
   
   // const services = [
@@ -216,12 +220,12 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Muse Haven",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A full-stack Blog Web App that allows users to create, track, and store their blog posts locally.",
       tags: [
         {
-          name: "react",
+          name: "ejs",
           color: "blue-text-gradient",
         },
         {
@@ -229,54 +233,50 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
           name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: musehaven,
+      source_code_link: "https://github.com/aimen-moten/muse-haven",
+    },
+    {
+      name: "Secrets",
+      description:
+        "This application provides users with the ability to submit any piece of text or secret anonymously.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ejs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: secrets,
+      source_code_link: "https://github.com/aimen-moten/secrets",
+    },
+    {
+      name: "Wellness Wings",
+      description:
+        "WellnessWings is a mobile application prototype that allows students to take charge of their mental and physical health and well being.",
+      tags: [
+        {
+          name: "figma",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: wellnesswings,
+      source_code_link: "https://github.com/aimen-moten/wellness-wings-prototype",
     },
   ];
   

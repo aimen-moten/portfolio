@@ -3,8 +3,15 @@ import {motion} from 'framer-motion';
 import {styles} from '../styles';
 import Typewriter from 'typewriter-effect';
 // import {Computers} from './canvas';
+import {useNavigate } from 'react-router-dom';
 
 const Hero = () => {
+  const navigate = useNavigate();
+
+  const routeChange = () => {
+    const path = "#contact";
+    navigate(path);
+  };
   return (
     <section className='relative w-full h-screen mx-auto'>
       <div className={`${styles.paddingX} absolute inset-0 top-[240px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
@@ -27,7 +34,7 @@ const Hero = () => {
               </span>
           </p>
           <div className='text-left'>
-          <a href="contact" target="_blank">
+          <a href="#contact" onClick={routeChange}>
             <button className='mt-5 bg-blue-300 hover:bg-blue-200 text-white font-bold py-2 px-4 border-b-4 border-blue-300 hover:border-blue-200 rounded'>Contact Me</button>
           </a>
         </div>
