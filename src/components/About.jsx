@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useId } from 'react';
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
@@ -11,7 +11,7 @@ import { SectionWrapper } from '../hoc';
 const About = () => {
   return (
     <>
-    <div className={`px-20 py-[64px] flow-root bg-[#191919] `}>
+    <div className={`px-20 py-[64px] flow-root bg-[#191919]`} id='About'>
         <div className='float-left text-left'>
           <motion.div variants={textVariant()} >
             <p className={styles.sectionSubText}>Introduction</p>

@@ -47,7 +47,7 @@ export function ProjectCard({index, name, description, tags, image, source_code_
 
 const Works = () => {
   return (
-    <div className={`sm:mx-auto px-20 py-[64px] flow-root`}>
+    <div className={`mx-auto px-20 py-[64px] flow-root`} id='projects'>
       <motion.div variants={textVariant()} className='mt-20 text-center'>
           <p className={styles.sectionSubText}>My Work</p>
           <h2 className={styles.sectionHeadText}>Projects</h2>
