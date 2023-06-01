@@ -10,7 +10,7 @@ export default function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
     <nav
-    className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20`}
+    className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 sticky`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link 
@@ -39,7 +39,7 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-        
+
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img  src={toggle ? close : menu} alt='menu' className='w-[28px] h-[28px] object-contain cursor-pointer'
             onClick={()=> setToggle(!toggle)}
