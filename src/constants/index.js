@@ -148,7 +148,8 @@ import {
       iconBg: "#b2dcfa",
       date: "June 2023 - August 2023",
       points: [
-        "Incoming Software Engineering Intern"
+        "Aligned the website with branding strategies by redesigning the user interface with React.js and Tailwind CSS.",
+        "Worked with a team of 30 engineers to create a flexible web application and bring the startup idea to life.",
       ],
     },
     {
@@ -160,6 +161,7 @@ import {
       points: [
         "Created multimedia exhibits, and configured and operated a Windows touchscreen kiosk to showcase those exhibits, student projects, visualization tables, and interactive games.",
         "Collaborated with 3 interns to visualize the provided dataset using Tableau.",
+        "Contributed to 10 different projects by independently learning 12 technological skills including ArcGIS Story Maps.",
       ],
     },
     {
@@ -174,8 +176,8 @@ import {
       ],
     },
     {
-      title: "Junior Chair",
-      company_name: "Computing Opportunities for Students of Color",
+      title: "Chair",
+      company_name: "International Computer Science Association",
       icon: cosoc,
       iconBg: "#b2dcfa",
       date: "August 2022 - Present",
