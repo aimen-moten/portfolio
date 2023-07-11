@@ -33,6 +33,8 @@ import {
     diversityhub,
     secrets,
     musehaven,
+    inclusimap,
+    businessincubator
   } from "../assets";
   
   export const navLinks = [
@@ -146,7 +148,7 @@ import {
       company_name: "IpserLab",
       icon: ipserlab,
       iconBg: "#b2dcfa",
-      date: "June 2023 - August 2023",
+      date: "June 2023 - Present",
       points: [
         "Aligned the website with branding strategies by redesigning the user interface with React.js and Tailwind CSS.",
         "Worked with a team of 30 engineers to create a flexible web application and bring the startup idea to life.",
@@ -159,7 +161,6 @@ import {
       iconBg: "#b2dcfa",
       date: "August 2022 - Present",
       points: [
-        "Created multimedia exhibits, and configured and operated a Windows touchscreen kiosk to showcase those exhibits, student projects, visualization tables, and interactive games.",
         "Collaborated with 3 interns to visualize the provided dataset using Tableau.",
         "Contributed to 10 different projects by independently learning 12 technological skills including ArcGIS Story Maps.",
       ],
@@ -287,6 +288,81 @@ import {
       ],
       image: wellnesswings,
       source_code_link: "https://github.com/aimen-moten/wellness-wings-prototype",
+    },
+    {
+      name: "Diversity Hub",
+      description:
+        "Diversity Hub is an all inclusive resource platform that allows CS majors to take advantage of mentors, DePauw alumni, campus organizations and their events, job and internship opportunities, referrals, leetcode buddies and more.",
+      tags: [
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind-css",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "node.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "jwt",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: diversityhub,
+      source_code_link: "https://github.com/aimen-moten/diversity-hub",
+    },
+    {
+      name: "InclusiMap",
+      description:
+        "An accessibility map featuring accessible locations in NYC, allowing everyone can explore the area on equal footing",
+      tags: [
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind-css",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "google-geocoding",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "googlemaps-api",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: inclusimap,
+      source_code_link: "https://github.com/aimen-moten/inclusiMap",
+    },
+    {
+      name: "Infinity Business Incubator",
+      description:
+        "A comprehensive platform for programs, resources, collaboration, and mentorship.",
+      tags: [
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind-css",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: businessincubator,
+      source_code_link: "https://github.com/aimen-moten/business-incubator",
     },
   ];
   

@@ -21,6 +21,8 @@ import musehaven from "./MuseHaven.png"
 import diversityhub from "./DiversityHub.png"
 import secrets from "./Secrets.png"
 import wellnesswings from "./WellnessWings.png"
+import inclusimap from "./inclusimap.png"
+import businessincubator from "./businessincubator.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -88,5 +90,7 @@ export {
   ZYANA,
   ZyanaShoot,
   zyana1,
-  ipserlab
+  ipserlab,
+  inclusimap,
+  businessincubator
 };
