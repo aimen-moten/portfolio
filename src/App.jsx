@@ -7,7 +7,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-[#00000]'>
+      <div className='relative z-0 bg-[#00000] p-4'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
         <Navbar/>
         <Hero/>
@@ -27,4 +27,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

@@ -10,9 +10,9 @@ import { SectionWrapper } from '../hoc';
 
 const About = () => {
   return (
-    <>
-    <div className={`px-20 py-[64px] flow-root bg-[#191919]`} id='About'>
-        <div className='float-left text-left'>
+  
+    <div className={`p-20 lg:grid grid-cols-2 bg-[#191919]`} id='About'>
+        <div className='text-left'>
           <motion.div variants={textVariant()} >
             <p className={styles.sectionSubText}>Introduction</p>
             <h2 className={styles.sectionHeadText}>Overview</h2>
@@ -29,12 +29,12 @@ const About = () => {
           </motion.p>
         </div>
         <div>
-          <img src={moten} className='h-80 w-80 mt-[100px] lg:float-right'/>
+          <img src={moten} className='h-[60%]  mt-[100px] ml-auto'/>
         </div>
       </div>
       
-    </>
+
   )
 }
 
-export default About;
+export default SectionWrapper(About,"about");

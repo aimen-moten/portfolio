@@ -20,8 +20,8 @@ const Feedbacks = () => {
   };
 
   return (
-    <div className={`flow-root mt-20 px-20 py-12 bg-[#191919]`} id='startups'>
-      <div className='text-left max-w-2xl float-left '>
+    <div className={`lg:grid grid-cols-2 mt-20 px-20 py-12 bg-[#191919]`} id='startups'>
+      <div className='text-left max-w-2xl'>
         <motion.div variants={textVariant()} className='text-left'>
             <p className={styles.sectionSubText}>My Passion</p>
             <h2 className={styles.sectionHeadText}>Startup</h2>
@@ -41,12 +41,12 @@ const Feedbacks = () => {
           
             
       </div>
-      <div className='float-right'>
-        <img src={ZYANA} className='max-w-xl max-w-xl rounded-full scale-75'/>
+      <div className='ml-auto'>
+        <img src={ZYANA} className=' rounded-full scale-75'/>
       </div>
     </div>
 
   )
 }
 
-export default Feedbacks;
+export default SectionWrapper(Feedbacks,"startup");

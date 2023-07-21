@@ -8,6 +8,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { technologies } from '../constants'
+import { SectionWrapper } from "../hoc";
 
 const responsive = {
   desktop: {
@@ -36,8 +37,9 @@ function SkillCard(props){
     )
 }
 
-export default function Skills(){
-    return (<div className="mt-20 justify-center carousel w-full h-full p-20 bg-[#191919]" id='Skills'>
+ function Skills(){
+    return (
+    <div className="mt-20 justify-center carousel w-full h-full p-20 bg-[#191919]" id='Skills'>
         <div>
             <motion.div variants={textVariant()} className='mt-12'>
             <p className={styles.sectionSubText}>Languages, Frameworks And Tools</p>
@@ -123,3 +125,5 @@ export default function Skills(){
     </div>)
     
 }
+
+export default SectionWrapper(Skills, "skills")
