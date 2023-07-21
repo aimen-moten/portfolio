@@ -23,6 +23,8 @@ import secrets from "./Secrets.png"
 import wellnesswings from "./WellnessWings.png"
 import inclusimap from "./inclusimap.png"
 import businessincubator from "./businessincubator.png"
+import equalwheels from "./equalwheels.png"
+import memeify from "./memeify.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -92,5 +94,7 @@ export {
   zyana1,
   ipserlab,
   inclusimap,
-  businessincubator
+  businessincubator,
+  equalwheels,
+  memeify
 };

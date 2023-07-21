@@ -34,7 +34,9 @@ import {
     secrets,
     musehaven,
     inclusimap,
-    businessincubator
+    businessincubator,
+    equalwheels,
+    memeify
   } from "../assets";
   
   export const navLinks = [
@@ -363,6 +365,45 @@ import {
       ],
       image: businessincubator,
       source_code_link: "https://github.com/aimen-moten/business-incubator",
+    },
+    {
+      name: "Equal Wheels",
+      description:
+        "A ride-sharing app that focuses on empowering and supporting marginalized genders in accessing safe, reliable, and affordable transportation options.",
+      tags: [
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind-css",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: equalwheels,
+      source_code_link: "https://github.com/aimen-moten/EqualWheels",
+    },
+    {
+      name: "Memeify!",
+      description:
+        "Interactive meme generator built using React.js where React Hooks and API calls are leveraged to generate memes.",
+      tags: [
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "APIs",
+          color: "blue-text-gradient",
+        },
+        
+      ],
+      image: memeify,
+      source_code_link: "https://github.com/aimen-moten/memeify",
     },
   ];
   
