@@ -152,8 +152,8 @@ import {
       iconBg: "#b2dcfa",
       date: "June 2023 - Present",
       points: [
-        "Aligned the website with branding strategies by redesigning the user interface with React.js and Tailwind CSS.",
-        "Worked with a team of 30 engineers to create a flexible web application and bring the startup idea to life.",
+        "Worked as a front-end developer in a team of 15+ engineers to create a flexible ecommerce web application and bring the startup idea to life.",
+        "Reduced the payment process runtime by 50% through Stripe integration and developed the admin dashboard pages for a B2B website and redesigned the user interface using React.js and TailwindCSS.",
       ],
     },
     {
@@ -163,12 +163,13 @@ import {
       iconBg: "#b2dcfa",
       date: "August 2022 - Present",
       points: [
-        "Collaborated with 3 interns to visualize the provided dataset using Tableau.",
-        "Contributed to 10 different projects by independently learning 12 technological skills including ArcGIS Story Maps.",
+        "Selected from a pool of 150+ applicants for admission to the highly prestigious Information Technology Associates Program, an immersive experience focused on mastering a variety of tech tools including HTML, CSS and Javascript.",
+        "In a team of 3, leveraged R and Tableau to analyze and visualize provided datasets and report valuable findings and trends for improved and informed decision making.",
+        "Independently conceptualized and executed 10+ projects to showcase proficiency in newly acquired skills."
       ],
     },
     {
-      title: "Chair",
+      title: "Freshman Chair",
       company_name: "Women in Computer Science at DePauw University",
       icon: wics,
       iconBg: "#b2dcfa",
@@ -185,7 +186,7 @@ import {
       iconBg: "#b2dcfa",
       date: "August 2022 - Present",
       points: [
-        "Conducted workshops on technical concepts such as Git, JUnit, and Python Data Structures to help over 100 international students build their portfolios, resulting in a 50% increase in the number of students securing internships.",
+        "Conducted workshops on technical concepts such as Git, and Python Data Structures to help over 100 international students build their portfolios, resulting in a 50% increase in the number of students securing internships.",
         "Helped over 100 students network with companies and organized a conference inviting software engineers from various companies."
       ],
     },

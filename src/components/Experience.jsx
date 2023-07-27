@@ -25,7 +25,7 @@ const ExperienceCard = ({experience}) => {
     }
     
     >
-      
+   
       <div>
         <h3 className='text-black text-[24px] font-bold'>
           {experience.title}
@@ -44,6 +44,7 @@ const ExperienceCard = ({experience}) => {
       <div className='vertical-timeline-element-date m-0 text-left'>
       <span className={`${styles.timeline}`}>{experience.date}</span>
       </div>
+ 
     </VerticalTimelineElement>
   )
 }
